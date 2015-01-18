@@ -98,12 +98,12 @@ stock DestroyLadder(ladderid)
 
 	new next;
 
-	DestroyDynamicArea(ldr_Data[id][ldr_areaID]);
-	ldr_Data[id][ldr_posX] = 0.0;
-	ldr_Data[id][ldr_posY] = 0.0;
-	ldr_Data[id][ldr_base] = 0.0;
-	ldr_Data[id][ldr_top] = 0.0;
-	ldr_Data[id][ldr_ang] = 0.0;
+	DestroyDynamicArea(ldr_Data[ladderid][ldr_areaID]);
+	ldr_Data[ladderid][ldr_posX] = 0.0;
+	ldr_Data[ladderid][ldr_posY] = 0.0;
+	ldr_Data[ladderid][ldr_base] = 0.0;
+	ldr_Data[ladderid][ldr_top] = 0.0;
+	ldr_Data[ladderid][ldr_ang] = 0.0;
 
 	Iter_SafeRemove(ldr_Index, ladderid, next);
 
