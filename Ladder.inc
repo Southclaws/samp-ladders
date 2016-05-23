@@ -40,7 +40,7 @@ Float:		ldr_ang
 
 static
 			ldr_Data[MAX_LADDER][E_LADDER_DATA],
-Iterator:	ldr_Index<MAX_LADDER>;
+   Iterator:ldr_Index<MAX_LADDER>;
 
 static
 			ldr_currentAnim[MAX_PLAYERS],
