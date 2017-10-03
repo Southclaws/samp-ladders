@@ -19,7 +19,7 @@
 
 #include <YSI\y_hooks>
 #include <YSI\y_iterate>
-#include <SIF/Core.pwn>
+#include <SIF/core>
 
 
 #define MAX_LADDER	(16)
