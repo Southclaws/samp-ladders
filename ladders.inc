@@ -10,11 +10,11 @@
 #define _ladders_included
 
 #include <a_samp>
-#include <YSI\y_iterate>
+#include <YSI_Data\y_iterate>
 #include <streamer>
 #include <action-text>
 
-#include <YSI\y_hooks>
+#include <YSI_Coding\y_hooks>
 
 
 #define MAX_LADDER	(16)
